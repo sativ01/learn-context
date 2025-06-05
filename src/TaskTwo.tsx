@@ -1,8 +1,8 @@
 import { TaskItem } from "./TaskItem";
-import { useTask } from "./useFirstTask";
+import { useSecondTask } from "./useFirstTask";
 
 export const TaskTwo = () => {
-  const task = useTask("two");
+  const task = useSecondTask();
   return (
     task && (
       <li key={task?.id}>
